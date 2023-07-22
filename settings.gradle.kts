@@ -1,4 +1,4 @@
-rootProject.name = "Moco"
+rootProject.name = "SJC"
 include("app")
 include(":data")
 include(":domain")

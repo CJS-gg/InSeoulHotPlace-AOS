@@ -1,4 +1,3 @@
-
 plugins {
     id(Plugin.Android_Application)
     id(Plugin.JETBRAINS_KOTLIN_ANDROID)
@@ -25,7 +24,7 @@ android {
         getByName("release") {
             isMinifyEnabled = false
             proguardFiles(
-                    getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+                getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
             )
         }
     }
@@ -35,6 +34,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+    dataBinding {
+        isEnabled = true
     }
 }
 
