@@ -1,7 +1,7 @@
 
 
 object Project {
-    const val NAME_SPACE = "com.soten.moco"
+    const val NAME_SPACE = "com.soten.sjc"
 
     const val COMPILE_SDK = 33
     const val MIN_SDK = 26
