@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "InSeoulHotPlace-AOS"
 include ':app'
 include ':data'
+include ':domain'
